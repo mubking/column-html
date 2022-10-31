@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    min-height: 100vh;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+
+}
+.tope{
+background-color: #E28525;
+width: 300px;
+height:400px;
+padding: 20px 40px;
+color: white;
+font-size: 2.5vmin;
+}
+.sola{
+    background-color: #016972;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px;
+    color: white;
+    font-size: 2.5vmin;
+}
+.tolu{
+    background-color: #00403F;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px;
+    color: white;
+    font-size: 2.5vmin;
+
+}
+.tope h2{
+    margin-top: 30px;
+}
+.sola h2{
+    margin-top: 30px;
+}
+.tolu h2{
+    margin-top: 30px;
+}
+.tolu p{
+    margin-top: 30px;
+}
+
+.sola p{
+    margin-top: 30px;
+}
+
+.tope p{
+    margin-top: 30px;
+}
+.sola button{
+    margin-top: 100px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    color: #016972;
+}
+.tolu button{
+    margin-top: 100px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    color: #00403F;
+}
+.tope button{
+    margin-top: 100px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    color: #E28525;
+}
+
+
+
+@media only screen and (max-width: 950px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
